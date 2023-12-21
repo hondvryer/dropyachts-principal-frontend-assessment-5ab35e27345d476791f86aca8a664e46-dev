@@ -1,10 +1,4 @@
-# Dropyacht's Principal Frontend Assessment
-
 ## Description
-
-Your goal is to create a dashboard using ReactJS which shows Total Clicks and Impressions along with a functional line chart and gets updated based on the date range selected by the user. The data is provided in the `src/data/data.js` file or you can download the CSV [Here](https://raw.githubusercontent.com/sundi133/dy-pub-apis.github.io/main/test_data-ic.csv). Here's a screenshot of the dashboard you'll be building:
-
-![Dashboard](./public/requirements.png)
 
 #### Requirements
 
