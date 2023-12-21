@@ -1,0 +1,56 @@
+.slide-in-menu {
+  width: 250px;
+  height: 100vh;
+  padding: 1rem 1rem 1rem 2rem;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  overflow: hidden;
+  z-index: 1000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brand-logo {
+  width: 195px;
+  height: 40px;
+}
+
+.slide-in-menu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+
+.slide-in-menu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+
+.slide-in-menu h2 a {
+  color: #333;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.slide-in-menu h2 a:hover {
+  text-decoration: underline;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  background: none;
+  border: none;
+}
+
+.nav-body {
+  margin-top: 2rem;
+}
+
+.nav-body > h3 {
+  margin-top: 1rem;
+}

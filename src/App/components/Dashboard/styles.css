@@ -1,0 +1,37 @@
+.tooltip-container {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px #00000029;
+  padding: 0.5rem;
+}
+
+.chart-wrapper {
+  flex: 1;
+}
+
+.chart-title {
+  color: #171717;
+  margin-left: 0.5rem;
+  font-weight: 600;
+}
+
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 10px;
+}
+
+.body-wrapper {
+  padding: 20px 50px;
+  border-radius: 8px;
+}
+
+@media (max-width: 410px) {
+  .body-wrapper {
+    padding: 20px;
+  }
+  .line-wrapper {
+    margin-top: 0;
+  }
+}
